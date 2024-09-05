@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Email Development</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #cccccc;
+    }
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #cccccc;
+      padding-bottom: 40px;
+    }
+    .main {
+      background-color: #ffffff;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #000000;
+    }
+    .button {
+      background-color: #4980d2;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .two-column {
+      width: 100%;
+      text-align: center;
+    }
+    .two-column .column {
+      width: 50%;
+      vertical-align: top;
+    }
+    .two-column img {
+      width: 100%;
+      max-width: 260px;
+      height: auto;
+    }
+    @media only screen and (max-width: 600px) {
+      .two-column .column {
+        width: 100%;
+        display: block;
+      }
+      .two-column img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <center class="wrapper">
+    <table class="main" width="100%" cellpadding="0" cellspacing="0">
+      <!-- Social Media Icons -->
+      <tr>
+        <td style="background-color: #4980d2; padding: 10px; text-align: center;">
+          <a href="#"><img src="images/white-facebook.png" alt="Facebook" width="30" style="margin: 0 5px;"></a>
+          <a href="#"><img src="images/white-youtube.png" alt="YouTube" width="30" style="margin: 0 5px;"></a>
+          <a href="#"><img src="images/white-instagram.png" alt="Instagram" width="30" style="margin: 0 5px;"></a>
+          <a href="#"><img src="images/white-twitter.png" alt="Twitter" width="30" style="margin: 0 5px;"></a>
+          <a href="#"><img src="images/white-linkedin.png" alt="LinkedIn" width="30" style="margin: 0 5px;"></a>
+        </td>
+      </tr>
+      <!-- Logo Section -->
+      <tr>
+        <td style="text-align: center; padding: 20px;">
+          <a href="#">
+            <img src="images/w3newbie.png" alt="Company Logo" width="100" style="display: block; margin: 0 auto;">
+          </a>
+        </td>
+      </tr>
+      <!-- Banner Image -->
+      <tr>
+        <td>
+          <a href="#">
+            <img src="images/snow.gif" alt="Winter Sale" width="600" style="width: 100%; max-width: 600px; height: auto; display: block;">
+          </a>
+        </td>
+      </tr>
+      <!-- Main Content -->
+      <tr>
+        <td style="padding: 20px; text-align: center;">
+          <h1 style="font-size: 24px; color: #4980d2; margin-bottom: 10px;">❄️ Winter Sale Extravaganza - Up to 50% OFF! ❄️</h1>
+          <p style="font-size: 16px; line-height: 24px; margin-bottom: 20px;">
+            Get cozy and warm up your wardrobe with our exclusive Winter Sale. For a limited time, enjoy up to 50% OFF on our bestsellers. Whether you’re looking for stylish outerwear, cozy sweaters, or the perfect winter accessories, we’ve got you covered.
+          </p>
+          <a href="#" class="button">Shop Now</a>
+        </td>
+      </tr>
+      <!-- Divider -->
+      <tr>
+        <td>
+          <hr style="border: none; height: 5px; background-color: #4980d2; margin: 20px 0;">
+        </td>
+      </tr>
+      <!-- Two Column Section -->
+      <tr>
+        <td>
+          <table class="two-column" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <!-- Column 1 -->
+              <td class="column" style="padding: 10px;">
+                <a href="#">
+                  <img src="images/winterclothing.jpg" alt="Winter Collection">
+                </a>
+              </td>
+              <!-- Column 2 -->
+              <td class="column" style="padding: 10px; text-align: left;">
+                <h2 style="font-size: 20px; color: #4980d2; margin-bottom: 10px;">Embrace the Chill with Style</h2>
+                <p style="font-size: 16px; line-height: 24px; margin-bottom: 20px;">
+                  Discover our latest collection crafted to keep you warm and trendy all season long. From plush coats to snug scarves, find everything you need to make this winter your most stylish one yet.
+                </p>
+                <a href="#" class="button">Explore Collection</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- Footer -->
+      <tr>
+        <td style="background-color: #4980d2; padding: 20px; text-align: center; color: #ffffff;">
+          <p style="margin: 0;">&copy; Clothing Company. All rights reserved.</p>
+          <p style="margin: 5px 0 0;">1234 coffee factory street, New York, NY, 1002</p>
+          <p style="margin: 5px 0 0;"><a href="#" style="color: #ffffff; text-decoration: underline;">Unsubscribe</a></p>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>
